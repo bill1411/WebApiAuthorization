@@ -1,4 +1,7 @@
 范例基于：
 https://www.cnblogs.com/wangyulong/p/8727683.html
 
+需要引入的包：
+项目右键----管理Nuget程序包----找到JWT
+
 原文中没有对token过期做处理，在代码中作了补充。可参考
