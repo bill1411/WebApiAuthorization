@@ -1,0 +1,7 @@
+范例基于：
+https://www.cnblogs.com/ye-hcj/articles/8151385.html
+
+需要引入的包：
+ System.IdentityModel.Tokens.Jwt
+
+原文中没有对token过期做处理，在代码中作了补充。可参考
