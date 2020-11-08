@@ -23,8 +23,8 @@ namespace WebApplication.Controllers
             {
                 AuthInfo model = new AuthInfo();
                 model.Role = "admin,manager";
-                model.UserName = "admins";
-                model.UserPhone = "13056988866";
+                model.UserName = "admin";
+                model.UserPhone = "888888";
                 return TokenHelper.GenerateToken(model);
             }
 
@@ -42,7 +42,7 @@ namespace WebApplication.Controllers
 
         private bool CheckUser(string username, string password)
         {
-            if (username == "admin" && password == "123456")
+            if (username == "admin" && password == "888888")
                 return true;
             else
                 return false;
